@@ -8,13 +8,28 @@
 //the day of the week (like Friday), and date will contain the day of the
 //month (like the 13th). Assign values to those variables that represent
 //today's date.
+//3. Display the value of each variable on a line by itself. This is an interme-
+//diate step that is useful for checking that everything is working so far.
+//Compile and run your program before moving on.
+//4. Modify the program so that it displays the date in standard American
+//format; for example: Thursday, 7 18, 2019.
+//5. Modify the program so it also displays the date in European format. The
+//final output should be as follows:
+//American format: Thursday, 7 18, 2019
+//European format: Thursday 18 7 2019
 
 public class Date {
-    public static void main(String[] args) {
+    public static void main1(String[] args) {
         String day = "Saturday";
         int date = 18;
         int month = 11;
         int year = 2023;
         System.out.println(day + " " + date + " " + month + " " +  year);
+        // Saturday 18 11 2023
+        System.out.println("American Format: " + "" + day + " " + month + " " + date + " " +  year);
+        System.out.println("European Format: " + "" + day + " " + date + " " + month + " " +  year);
+        // Saturday 18 11 2023
+        //American Format: Saturday 11 18 2023
+        //European Format: Saturday 18 11 2023
     }
 }
