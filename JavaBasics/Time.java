@@ -20,7 +20,7 @@ working on this exercise.
 */
 
 public class Time {
-    public static void main(String[] args) {
+    public static void main1(String[] args) {
         // Initial time values
         int hour = 23;
         int minute = 30;

@@ -21,7 +21,7 @@ public class Variables {
         pi = 3.14159;
 
         //the following is illegal because int cant be double 
-        int x = 1.1;
+        //int x = 1.1;
 
 
         //rounding error 
