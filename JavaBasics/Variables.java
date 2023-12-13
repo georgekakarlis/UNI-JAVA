@@ -1,7 +1,7 @@
 // a variable is a named location in memory that stores a value. values could be any data type.
 // variable names are case sensitive
 
-import javax.sound.midi.Sequencer.SyncMode;
+
 
 public class Variables {
     public static void Two(String[] args) {
