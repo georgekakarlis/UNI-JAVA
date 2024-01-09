@@ -48,6 +48,7 @@ public class Main {
         linkedList.offer("C");
         linkedList.offer("D");
         linkedList.offer("F");
+        linkedList.add("E");
         linkedList.poll();
 
 
